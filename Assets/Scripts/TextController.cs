@@ -3,14 +3,16 @@ using UnityEngine;
 
 public class TextController : MonoBehaviour
 {
-    [SerializeField] private Transform cam;
+    // [SerializeField] private Transform cam;
     [SerializeField] private TMP_Text tMP_Text;
     [SerializeField] private MoveAlongSpline moveAlongSpline;
+    [SerializeField] private Vector3 rotationSpeed;
 
-    // Update is called once per frame
-    void LateUpdate()
+    private void LateUpdate()
     {
-        transform.LookAt(cam, Vector3.up);
+        Vector3 rotationThisFrame = rotationSpeed * Time.deltaTime;
+        
+        transform.Rotate(rotationThisFrame);
 
         tMP_Text.text = moveAlongSpline.Direction switch
         {
