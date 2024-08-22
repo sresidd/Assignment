@@ -1696,9 +1696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42beda995ecc2f54a912c8409b59ccef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 330585546}
   tMP_Text: {fileID: 600856853}
   moveAlongSpline: {fileID: 881506920}
+  rotationSpeed: {x: 0, y: -100, z: 0}
 --- !u!1 &1500310840
 GameObject:
   m_ObjectHideFlags: 0
