@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI.uss?fileID=7433441132597879392&amp;guid=bb0e8537e5b3f1b40af7015d1ee68eb3&amp;type=3#UI" />
+    <ui:Label tabindex="-1" text="Moving CW" parse-escape-sequences="true" display-tooltip-when-elided="true" style="height: 986px; -unity-text-align: middle-center; white-space: nowrap; font-size: 97px;" />
+</ui:UXML>
