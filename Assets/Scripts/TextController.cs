@@ -12,7 +12,7 @@ public class TextController : MonoBehaviour
     {
         transform.LookAt(cam, Vector3.up);
 
-        tMP_Text.text = moveAlongSpline.direction switch
+        tMP_Text.text = moveAlongSpline.Direction switch
         {
             1 => "Moving CW",
             -1 => "Moving CCW",
